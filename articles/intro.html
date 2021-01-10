@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
@@ -153,6 +152,24 @@ ferro tellusque tulit longa <strong>ungues</strong> oris magnis tamen tectus; fu
 obscura ramis feliciter libido aut sensi? Vidi oenea puppibus amanti, pro
 foliis, hoc est amicitiae et! Caput favorem, inimica in spinae hoc simul
 stantibus pependit opesque pericula avorum paene.</p>
+<h2 id="test-tabs-syntax">Test tabs syntax</h2>
+<p>Tab group 1:</p>
+<div class="tabGroup" id="tabgroup_5PEFIiQtHk">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk_tabid-1" role="tab" aria-controls="tabpanel_5PEFIiQtHk_tabid-1" data-tab="tabid-1" tabindex="0" aria-selected="true">Tab Text 1</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_5PEFIiQtHk_tabid-2" role="tab" aria-controls="tabpanel_5PEFIiQtHk_tabid-2" data-tab="tabid-2" tabindex="-1">Tab Text 2</a>
+</li>
+</ul>
+<section id="tabpanel_5PEFIiQtHk_tabid-1" role="tabpanel" data-tab="tabid-1">
+<p>Tab content-1-1.</p>
+</section>
+<section id="tabpanel_5PEFIiQtHk_tabid-2" role="tabpanel" data-tab="tabid-2" aria-hidden="true" hidden="hidden">
+<p>Tab content-1-2.</p>
+</section>
+</div>
 </article>
           </div>
           
@@ -165,6 +182,20 @@ stantibus pependit opesque pericula avorum paene.</p>
                   </li>
                 </ul>
               </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
