@@ -76,6 +76,10 @@ article h4 {
   background-color: var(--color-background-subnav);
 }
 
+.sidenav, .fixed_header, .toc {
+  background-color: var(--color-background);
+}
+
 .navbar-inverse {
   background-color: var(--color-background-dark);
   z-index: 100;
